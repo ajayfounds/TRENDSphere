@@ -1,0 +1,98 @@
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1280' preserveAspectRatio='none' viewBox='0 0 1920 1280'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1194%26quot%3b)' fill='none'%3e%3crect width='1920' height='1280' x='0' y='0' fill='rgba(120%2c 66%2c 18%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c641.58C141.759%2c664.898%2c308.827%2c745.138%2c421.993%2c656.635C537.479%2c566.318%2c488.915%2c380.239%2c517.929%2c236.53C539.681%2c128.791%2c578.302%2c27.562%2c571.145%2c-82.118C563.534%2c-198.752%2c530.017%2c-308.668%2c475.6%2c-412.11C408.562%2c-539.545%2c352.955%2c-694.033%2c220.07%2c-749.488C85.76%2c-805.538%2c-75.148%2c-762.899%2c-204.32%2c-695.851C-322.723%2c-634.393%2c-388.142%2c-510.628%2c-458.483%2c-397.277C-519.033%2c-299.704%2c-563.138%2c-196.889%2c-584.03%2c-83.971C-605.655%2c32.905%2c-624.72%2c154.812%2c-581.087%2c265.374C-536.387%2c378.64%2c-443.518%2c464.901%2c-341.303%2c531.077C-238.847%2c597.409%2c-120.435%2c621.769%2c0%2c641.58' fill='%235e340e'%3e%3c/path%3e%3cpath d='M1920 2185.122C2088.628 2184.471 2240.38 2089.364 2374.234 1986.8020000000001 2500.255 1890.242 2601.742 1765.641 2660.139 1618.01 2716.639 1475.176 2743.236 1314.942 2698.07 1168.13 2655.553 1029.9279999999999 2509.953 959.756 2422.26 844.789 2326.632 719.419 2303.285 528.472 2159.984 462.69000000000005 2015.162 396.20899999999995 1839.746 445.95000000000005 1694.056 510.50699999999995 1558.5059999999999 570.571 1479.028 701.906 1377.117 809.5889999999999 1269.827 922.956 1117.1399999999999 1007.6120000000001 1080.097 1159.24 1042.184 1314.43 1112.6660000000002 1473.074 1179.588 1618.135 1246.3049999999998 1762.751 1337.057 1893.49 1463.505 1990.3200000000002 1597.5720000000001 2092.985 1751.1399999999999 2185.774 1920 2185.122' fill='%23925116'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1194'%3e%3crect width='1920' height='1280' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.frame{
+    background-color: rgba(240, 248, 255, 0.096);
+    border: 3px solid rgb(245, 242, 242);
+    border-radius: 2.5rem;
+    padding: 0rem 12rem 1rem 12rem;
+    position: absolute;
+    top: 2%;
+    left: 23%;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 2.6rem;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    font-size: large;
+    font-weight: 6 00;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    color: rgb(254, 254, 254);
+}
+
+legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(236, 236, 236);
+
+}
+
+input{
+    border-radius: 0.4rem;
+    background-image: linear-gradient(to right, #cd8f60 0%, #7b4816 100%);
+    /* background-color: antiquewhite; */
+    font-size: 1.4rem;
+}
+
+#address{
+    background-image: linear-gradient(to right, #cd8f60 0%, #7b4816 100%);
+    /* background-color: antiquewhite; */
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0.135rem solid black;
+}
+
+#card_type{
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    border: 0.156rem solid black;
+    background-image: linear-gradient(to right, #cd8f60 0%, #7b4816 100%);
+    /* background-color: antiquewhite; */
+}
+
+
+.bn31 {
+    background-image: linear-gradient(to right, #ff6f00 0%, #281502 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #000000;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+}
+
+.bn31:hover {
+    color: #e9e5e5;
+    font-size: 1.5rem;
+    
+}
+
+.bn31 .bn31span {
+    align-items: center;
+    background: #f1ad31;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+}
+
+.bn31:hover .bn31span {
+    background: transparent;
+}

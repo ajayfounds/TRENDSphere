@@ -2,7 +2,8 @@ body
 {
     margin: 0;
     /* background-image: linear-gradient(to right top, #f5ae2e, #f5b241, #f4b652, #f3ba61, #f2be70, #ecb96e, #e7b46d, #e1af6b, #d6a059, #cb9147, #bf8235, #b47323); */
-    background-color: #b47549cf;
+    /* background-color: #b47549cf; */
+    background-color: #a15620cf;
 }
 #badge
 {
